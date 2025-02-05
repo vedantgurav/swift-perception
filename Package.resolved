@@ -1,39 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "swift-macro-testing",
+      "identity" : "swift-syntax-xcframeworks",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/pointfreeco/swift-macro-testing",
+      "location" : "https://github.com/sjavora/swift-syntax-xcframeworks.git",
       "state" : {
-        "revision" : "90e38eec4bf661ec0da1bbfd3ec507d0f0c05310",
-        "version" : "0.3.0"
-      }
-    },
-    {
-      "identity" : "swift-snapshot-testing",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/pointfreeco/swift-snapshot-testing",
-      "state" : {
-        "revision" : "5b0c434778f2c1a4c9b5ebdb8682b28e84dd69bd",
-        "version" : "1.15.4"
-      }
-    },
-    {
-      "identity" : "swift-syntax",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-syntax",
-      "state" : {
-        "revision" : "08a2f0a9a30e0f705f79c9cfaca1f68b71bdc775",
-        "version" : "510.0.0"
-      }
-    },
-    {
-      "identity" : "xctest-dynamic-overlay",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/pointfreeco/xctest-dynamic-overlay",
-      "state" : {
-        "revision" : "b13b1d1a8e787a5ffc71ac19dcaf52183ab27ba2",
-        "version" : "1.1.1"
+        "revision" : "7501c18dfe20e637818d838df961072176d6296e",
+        "version" : "510.0.1"
       }
     }
   ],
