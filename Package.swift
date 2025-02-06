@@ -15,13 +15,15 @@ let package = Package(
     .library(name: "Perception", targets: ["Perception"])
   ],
   dependencies: [
-    .package(url: "https://github.com/sjavora/swift-syntax-xcframeworks.git", "509.0.0"..<"511.0.0")
+    .package(url: "https://github.com/sjavora/swift-syntax-xcframeworks.git", "509.0.0"..<"511.0.0"),
+    .package(url: "https://github.com/pointfreeco/xctest-dynamic-overlay", from: "1.0.0"),
   ],
   targets: [
     .target(
       name: "Perception",
       dependencies: [
         "PerceptionMacros",
+        .product(name: "XCTestDynamicOverlay", package: "xctest-dynamic-overlay"),
       ]
     ),
 
